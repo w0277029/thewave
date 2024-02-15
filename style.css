@@ -1,0 +1,65 @@
+/*
+Theme Name: The Wave
+Theme URI: https://thewave.nscc.ca
+Author: Matthew Allen
+Description: This is a theme for NSCC WEBD3027 for a news website
+Version: 1.0
+*/
+
+/* Nav */
+.navbar {
+    background-color: lightgrey;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    text-transform: uppercase;
+}
+
+/* Front Page */
+#category-section {
+    margin: auto;
+}
+
+.post-profile-img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.featured-img {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.post-author{
+    padding-left: 0; 
+    margin-left: 0;
+}
+
+.row {
+    padding-top: 10px;
+}
+
+.other-posts-img, .post-content {
+    display: none;
+}
+
+.custom-link {
+    text-decoration: none; 
+    color: inherit;
+    padding-left: 0; 
+    margin-left: 0;
+}
+
+/* Category */
+.category-feature-img {
+    display: block;
+    margin: auto;
+}
+
+/* Viewport */
+@media (max-width: 750px) {
+    .other-posts-img, .post-content {
+        display: block;
+    }
+}
