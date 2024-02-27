@@ -25,9 +25,11 @@ foreach($categories as $category):
         'numberposts' => 3,
         'post_status' => 'publish',
         'category_name' => $category->name,
-        'order' => 'DESC'
+        'order' => 'DESC',
+        'offset' => 1
     ));
 
+    $latest_post_id = $latest_post[0]->ID;
     $latest_author_id = $latest_post[0]->post_author;
 
 ?>

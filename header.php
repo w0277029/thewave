@@ -36,3 +36,12 @@
     </nav>
 
     <div class="container mt-2">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Script source for hamburger menu functionality: ChatGPT -->
+    <script>
+        $(document).ready(function() {
+            $('.navbar-toggler').click(function() {
+                $('.navbar-collapse').toggleClass('show');
+            });
+        });
+    </script>
