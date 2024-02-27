@@ -26,7 +26,7 @@ $current_category = get_queried_object();
     <div class="row border-top" id="category-row">
         <div class="col">
             <a href="<?= get_permalink($id); ?>">
-                <img class="category-feature-img" src="<?= get_the_post_thumbnail_url($id, 'medium'); ?>" >
+                <img class="category_feature_img" src="<?= get_the_post_thumbnail_url($id, 'medium'); ?>" >
             </a>
         </div>
         <div class="col">
@@ -34,7 +34,7 @@ $current_category = get_queried_object();
                 <h5 class="post-title"><?= get_the_title($id); ?></h5>
             </a>
             <img src="<?= get_avatar_url($author_id) ?>" class="post-profile-img">
-                <?= get_the_author_meta('display_name', $author_id)?> | <?=get_the_date(); ?>
+                <?= get_the_author_meta('display_name', $author_id)?> 
             <a href="<?= get_permalink($id); ?>" class="custom-link">
                 <p><?= get_the_excerpt() ?></p>
             </a>

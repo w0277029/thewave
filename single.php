@@ -19,7 +19,7 @@ while ( have_posts() ) :
 </div>
 
 <div class="">
-    <img src="<?= $avatar_src ?>" class="post_profile_img">
+    <img src="<?= $avatar_src ?>" class="post-profile-img">
     <?= $author_name ?>
 </div>
 
